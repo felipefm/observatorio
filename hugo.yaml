@@ -1,0 +1,31 @@
+baseURL: 'https://seu-dominio.com/' # Quando tiver um domínio ou IP fixo, atualize aqui
+languageCode: 'pt-br'
+title: 'O Observatório'
+theme: 'hextra'
+
+params:
+  hextra:
+    blog:
+      enable: true
+  
+  # Ativa o sistema de comentários
+  comments:
+    enable: true
+    type: giscus
+  
+  # Suas credenciais diretas do Giscus
+  giscus:
+    repo: 'felipefm/observatorio-comentarios'
+    repoId: 'R_kgDOSl1rPA'
+    category: 'Announcements'
+    categoryId: 'DIC_kwDOSl1rPM4C9rvJ'
+    mapping: 'pathname'
+    theme: 'preferred_color_scheme'
+    lang: 'pt'
+
+# --- NOVO CÓDIGO ABAIXO ---
+menu:
+  main:
+    - name: Textos
+      pageRef: /blog
+      weight: 1
