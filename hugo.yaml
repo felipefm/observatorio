@@ -20,3 +20,8 @@ menu:
       name: "Sobre"
       url: /sobre/
       weight: 20
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
