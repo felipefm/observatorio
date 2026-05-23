@@ -1,4 +1,0 @@
----
-title: "Textos"
-type: "blog"
----

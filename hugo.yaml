@@ -1,31 +1,28 @@
-baseURL: 'https://seu-dominio.com/' # Quando tiver um domínio ou IP fixo, atualize aqui
+baseURL: 'https://seu-dominio.com/'
 languageCode: 'pt-br'
 title: 'O Observatório'
-theme: 'hextra'
+theme: 'PaperMod'
 
 params:
-  hextra:
-    blog:
-      enable: true
+  defaultTheme: auto # Alterna entre claro/escuro com base no sistema do leitor
+  ShowReadingTime: true
+  ShowShareButtons: false
+  comments: true
   
-  # Ativa o sistema de comentários
-  comments:
-    enable: true
-    type: giscus
-  
-  # Suas credenciais diretas do Giscus
-  giscus:
-    repo: 'felipefm/observatorio-comentarios'
-    repoId: 'R_kgDOSl1rPA'
-    category: 'Announcements'
-    categoryId: 'DIC_kwDOSl1rPM4C9rvJ'
-    mapping: 'pathname'
-    theme: 'preferred_color_scheme'
-    lang: 'pt'
+  # Suas credenciais do Giscus
+  comments_config:
+    giscus:
+      repo: 'felipefm/observatorio-comentarios'
+      repoId: 'R_kgDOSl1rPA'
+      category: 'Announcements'
+      categoryId: 'DIC_kwDOSl1rPM4C9rvJ'
+      mapping: 'pathname'
+      theme: 'preferred_color_scheme'
+      lang: 'pt'
 
-# --- NOVO CÓDIGO ABAIXO ---
 menu:
   main:
-    - name: Textos
-      pageRef: /blog
-      weight: 1
+    - identifier: archives
+      name: Arquivo
+      url: /archives/
+      weight: 10
