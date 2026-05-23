@@ -1,34 +1,96 @@
-/* --- Modernização da Home (Estilo Editorial sem caixas) --- */
+/* =========================================
+   1. ESTILO EDITORIAL DA PÁGINA DE ARQUIVO
+   ========================================= */
 
-/* Remove as caixas de fundo e adiciona uma linha divisória clássica */
+/* O Ano: Tamanho elegante e equilibrado */
+.archive-year {
+    font-size: 2rem; 
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+
+/* Contadores de publicação: Retornam de forma sutil */
+.archive-year sup, .archive-month sup {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--secondary);
+    opacity: 0.7;
+    margin-left: 6px;
+    top: -0.5em;
+}
+
+/* Os meses ficam refinados */
+.archive-month-header {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+/* As publicações ganham espaço e uma separação limpa */
+.archive-entry {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--border);
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.archive-entry:last-child {
+    border-bottom: none;
+}
+
+.archive-name {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+/* Datas com toque analógico/máquina de escrever */
+.archive-meta {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+.archive-entry:hover {
+    transform: translateX(12px);
+}
+
+/* =========================================
+   2. ESTILO EDITORIAL DA PÁGINA INICIAL
+   ========================================= */
+
+/* Remove as caixas de fundo e adiciona linha clássica */
 .post-entry {
     background: transparent;
     border-radius: 0;
     box-shadow: none;
     border: none;
     border-bottom: 1px solid var(--border);
-    padding: 2rem 0; /* Muito espaço vertical para o texto respirar */
+    padding: 2rem 0;
     margin: 0;
     transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-/* Remove a linha do último post da página inicial */
 .post-entry:last-of-type {
     border-bottom: none;
 }
 
-/* Mantém o mesmo efeito deslizante elegante do Arquivo */
 .post-entry:hover {
     transform: translateX(12px);
     background: transparent;
 }
 
-/* Evita o efeito padrão do tema de "afundar" a caixa ao clicar */
 .post-entry:active {
     transform: translateX(12px);
 }
 
-/* Ajusta as fontes do resumo e da data para combinar com o Arquivo */
 .entry-content {
     color: var(--secondary);
     font-size: 1rem;
