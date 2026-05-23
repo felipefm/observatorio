@@ -1,20 +1,58 @@
-/* Limpa os números elevados, deixando-os discretos e com uma cor mais suave */
+/* 1. Remove os números elevados (limpeza visual imediata) */
 .archive-year sup, .archive-month sup {
-    font-size: 0.8rem;
+    display: none;
+}
+
+/* 2. O Ano vira um divisor forte e elegante, estilo revista */
+.archive-year {
+    font-size: 2.8rem;
+    font-weight: 800;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    letter-spacing: -0.04em;
+}
+
+/* 3. Os meses ficam sutis e refinados */
+.archive-month-header {
+    font-size: 1.5rem;
     color: var(--secondary);
-    font-weight: 300;
-    margin-left: 6px;
-}
-
-/* Dá apenas um respiro elegante entre as publicações */
-.archive-entry {
+    opacity: 0.6;
     margin-bottom: 1.5rem;
-    padding-left: 5px;
 }
 
-/* Faz o título do texto ganhar um sublinhado sutil quando você passa o mouse */
-.archive-name a:hover {
-    color: var(--primary);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+/* 4. As publicações ganham espaço e uma separação limpa */
+.archive-entry {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--border);
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Remove a linha do último texto para não sobrar traço à toa */
+.archive-entry:last-child {
+    border-bottom: none;
+}
+
+/* 5. Títulos mais robustos */
+.archive-name {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+/* 6. Datas e tempo de leitura ganham um toque analógico/máquina de escrever */
+.archive-meta {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/* 7. O toque de mestre: Ao passar o mouse, o texto desliza suavemente para a direita */
+.archive-entry:hover {
+    transform: translateX(12px);
+}
 }
