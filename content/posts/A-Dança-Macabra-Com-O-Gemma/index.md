@@ -1,14 +1,17 @@
 ---
-DataPublic: 2026-04-04T12:38:00-03:00
+date: 2026-04-04T12:38:00-03:00
 tags:
+  - IALocal
+  - LMStudio
+  - CriatividadeDigital
   - Psicopedagogia
-  - MaterialDidático
+  - OFFLINE
   - Artigo
 LocalPublicado:
 title: "A Dança Macabra com o Gemma: Quatro Horas para um Resultado Mediano (e a Sanidade em Jogo)"
 draft: false
 ---
-![[tela do LM Studio.png]]
+![[tela- do-LM-Studio.png]]
 
 Ah, o fascínio da inteligência artificial local. A promessa de ter um gênio criativo à sua disposição, rodando na máquina que você mesmo montou. A realidade? Bem... a realidade é um pouco mais complexa.
 
@@ -140,20 +143,4 @@ A lição que aprendi? A inteligência artificial é uma ferramenta poderosa, ma
 E você? Já se sentiu assim, lutando contra uma máquina que teima em não cooperar? Se sim, saiba que você não está sozinho. A jornada do criador digital é cheia de altos e baixos, de vitórias e derrotas. Mas no final das contas, o importante é continuar tentando, aprendendo e rindo da própria desgraça.
 
 Agora, se me dá licença, vou ali tomar um banho de água fria e tentar esquecer as quatro horas que perdi com o Gemma. E você? Vá lá criar algo incrível (e, por favor, não me conte como foi difícil).
-
-
----
-
-**Tags Sugeridas:**
-
-*   IA Local
-*   LM Studio
-*   Gemma
-*   Prompt Engineering
-*   Criatividade Digital
-*   Humor Negro
-*   Papel e Brasa
-*   Psicopedagogia
-*   Material Didático
-*   TDAH
 
