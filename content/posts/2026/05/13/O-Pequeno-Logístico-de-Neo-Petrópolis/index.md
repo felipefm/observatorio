@@ -6,7 +6,7 @@ tags:
   - CrônicaFuturista
   - TrabalhoInfantil
   - EscritaAnalógica
-LocalPublicado: Youtube
+LocalPublicado: Youtube, Blog
 title: O Pequeno Logístico de Neo-Petrópolis
 ---
 O ar, outrora perfumado com hortênsias, agora sufoca com o cheiro metálico do ozônio e a fumaça acre do tabaco sintético. Um aroma barato que gruda na garganta. No topo da minha varanda cibernética observo o brilho das luzes de néon de Neo-Petrópolis que sujam a neblina. Parecem feridas abertas no céu. Abro meu fichário de titânio e, com uma pena de iridio, começo a registrar o caos do novo século.
