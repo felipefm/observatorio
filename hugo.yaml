@@ -3,6 +3,13 @@ languageCode: 'pt-br'
 title: 'O Observatório'
 theme: 'PaperMod'
 
+# Aqui ligamos o "motor" gerador do índice de busca
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   defaultTheme: auto
   ShowReadingTime: true
@@ -12,6 +19,10 @@ params:
 
 menu:
   main:
+    - identifier: search
+      name: "Pesquisar"
+      url: /search/
+      weight: 5
     - identifier: archives
       name: "Arquivo"
       url: /archives/
