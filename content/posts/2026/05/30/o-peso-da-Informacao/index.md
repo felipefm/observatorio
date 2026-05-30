@@ -41,7 +41,7 @@ Este prompt inicial, embora simples e generalista, serviu como ponto de partida 
 ## Google
 A big tech do jogo.
 
-Aqui esta o reusltado: [Pesquisa Google](/posts/2026/05/30/pesquia-google/)
+Aqui esta o reusltado: [Pesquisa Google](/posts/2026/05/30/pesquisa-google/)
 
 Entre as ferramentas testadas, esta se destacou por apresentar um tempo de resposta mais longo. Contudo, a qualidade dos resultados obtidos justificou a espera, oferecendo um material valioso para pesquisa.
 
@@ -56,7 +56,7 @@ A resposta foi obtida rapidamente, porém sua superficialidade refletiu a pouca 
 ## Perplexity
 A IA que promete te dar respostas de fontes "confiáveis". Vai saber o que significar isso!
 
-Resultado aqui: [Pesquisa Perplexity](/posts/2026/05/30/pesquia-perplexity/)
+Resultado aqui: [Pesquisa Perplexity](/posts/2026/05/30/pesquisa-perplexity/)
 
 Comparado com o ChatGPT, esta inteligência artificial proporcionou um material relativamente rápido e com maior densidade de informações. No entanto, ainda se mostrou inferior aos resultados obtidos com o Google.
 
@@ -64,7 +64,7 @@ Comparado com o ChatGPT, esta inteligência artificial proporcionou um material 
 ## Ask AI
 Ask AI é uma tecnologia que permite fazer perguntas diretamente a sistemas de inteligência artificial, gerando respostas claras e contextualizadas. Sua grande vantagem é poupar o trabalho de navegar por vários sites, entregando a informação de forma ágil e precisa.
 
-Resultado aqui: [Pesquisa Ask AI](/posts/2026/05/30/pesquia-ask-ai/)
+Resultado aqui: [Pesquisa Ask AI](/posts/2026/05/30/pesquisa-ask-ai/)
 
 Entre as ferramentas testadas, esta se destacou por apresentar resultados menos satisfatórios. Embora não tenha atendido às minhas expectativas, considero relevante mencioná-la para ilustrar a diversidade de abordagens e resultados no processo de pesquisa.
 
