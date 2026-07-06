@@ -5,3 +5,18 @@ y_gravações/
 z_extras/
 01_Escrivaninha/
 .trash
+
+# --- Pastas do Syncthing ---
+.stfolder/
+.stversions/
+
+# --- Arquivos de Log e Dados Temporários da raiz ---
+.ect_inputlog.txt
+.ect_outputlog.txt
+ectsavedata_10min.txt
+ectsavedata_1min.txt
+release0721_S.LSI.txt
+
+# --- Pastas de Backup e Temas que não devem subir ---
+XMusic/Backups/
+themes/
