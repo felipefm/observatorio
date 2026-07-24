@@ -16,10 +16,11 @@
   {{- $icone := or (index $icons $tipo) "📌" -}}
   {{- $cor := or (index $colors $tipo) "blue" -}}
   <div class="hx-callout hx-callout-{{ $cor }}">
-    <p class="hx-callout-title">
-      <span>{{ $icone }}</span>
-      {{ with .AlertTitle }}{{ . }}{{ else }}{{ title $tipo }}{{ end }}
-    </p>
+    {{- $titulo := trim (printf "%s" .AlertTitle) " " -}}
+        <p class="hx-callout-title">
+          <span>{{ $icone }}</span>
+          {{ if $titulo }}{{ .AlertTitle }}{{ else }}{{ title $tipo }}{{ end }}
+        </p>
     <div class="hx-callout-body">
       {{ .Text }}
     </div>
