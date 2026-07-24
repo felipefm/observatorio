@@ -16,7 +16,7 @@ Aplicada às políticas de segurança urbana, a lógica dessa teoria se mostra m
 Se nos permitirmos um instante de contemplação, perceberemos que o nosso desenvolvimento pessoal funciona sob a mesma regra daquele prédio antigo. A diferença é sutil, mas profunda. Quando olhamos para a nossa carreira, não encontramos estilhaços pelo chão. Na nossa rotina, as janelas quebradas não são feitas de vidro. Elas moram nos detalhes invisíveis e assumem, devagarzinho, a forma das nossas atitudes.
 Uma janela quebrada é aquele prazo que deixamos estourar e justificamos com uma desculpa rápida. É o pequeno erro de lógica em um script de automação que decidimos ignorar porque "por enquanto está rodando". É a refatoração de um projeto que empurramos com a barriga por semanas, ou o hábito de abandonar uma rotina de organização quando o cansaço bate.
 
-> [!Descuido]
+> [!tip]
 > Um descuido isolado não tem o poder de arruinar uma trajetória profissional. O verdadeiro perigo da janela quebrada é a normalização da falha.
 
 Quando toleramos esses pequenos abandonos repetidamente, enviamos uma mensagem perigosa de que o desleixo é aceitável. Pouco a pouco, o que era apenas um detalhe esquecido se transforma em um padrão. A mediocridade se infiltra silenciosamente, e a sua credibilidade profissional, antes sólida, começa a apresentar fissuras. Gestores e parceiros passam a duvidar da sua capacidade de entrega e, de forma ainda mais corrosiva, você mesmo perde a confiança na própria disciplina.

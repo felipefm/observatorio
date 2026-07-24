@@ -1,0 +1,29 @@
+{{- $icons := dict
+  "note" "📝" "tip" "💡" "important" "❗" "warning" "⚠️" "caution" "🔥"
+  "danger" "🔥" "info" "ℹ️" "abstract" "📋" "summary" "📋" "todo" "☑️"
+  "success" "✅" "check" "✅" "question" "❓" "faq" "❓" "failure" "❌"
+  "fail" "❌" "bug" "🐞" "example" "🧪" "quote" "❝" "cite" "❝"
+-}}
+{{- $colors := dict
+  "note" "blue" "tip" "green" "important" "purple" "warning" "yellow"
+  "caution" "red" "danger" "red" "info" "blue" "abstract" "cyan"
+  "summary" "cyan" "todo" "gray" "success" "green" "check" "green"
+  "question" "yellow" "faq" "yellow" "failure" "red" "fail" "red"
+  "bug" "red" "example" "purple" "quote" "gray" "cite" "gray"
+-}}
+{{- if eq .Type "alert" -}}
+  {{- $tipo := .AlertType -}}
+  {{- $icone := or (index $icons $tipo) "📌" -}}
+  {{- $cor := or (index $colors $tipo) "blue" -}}
+  <div class="hx-callout hx-callout-{{ $cor }}">
+    <p class="hx-callout-title">
+      <span>{{ $icone }}</span>
+      {{ with .AlertTitle }}{{ . }}{{ else }}{{ title $tipo }}{{ end }}
+    </p>
+    <div class="hx-callout-body">
+      {{ .Text }}
+    </div>
+  </div>
+{{- else -}}
+  <blockquote>{{ .Text }}</blockquote>
+{{- end -}}
