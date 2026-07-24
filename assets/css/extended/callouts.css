@@ -18,6 +18,9 @@
 .hx-callout-body > *:last-child {
   margin-bottom: 0;
 }
+.hx-callout-body > *:first-child {
+  margin-top: 0;
+}
 
 .hx-callout-blue   { --hx-callout-accent: #3b82f6; --hx-callout-bg: #eff6ff; }
 .hx-callout-green  { --hx-callout-accent: #22c55e; --hx-callout-bg: #f0fdf4; }
