@@ -1,0 +1,33 @@
+.hx-callout {
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--hx-callout-accent, #3b82f6);
+  background: var(--hx-callout-bg, #eff6ff);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+.hx-callout-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+.hx-callout-body {
+  margin: 0;
+}
+.hx-callout-body > *:last-child {
+  margin-bottom: 0;
+}
+
+.hx-callout-blue   { --hx-callout-accent: #3b82f6; --hx-callout-bg: #eff6ff; }
+.hx-callout-green  { --hx-callout-accent: #22c55e; --hx-callout-bg: #f0fdf4; }
+.hx-callout-yellow { --hx-callout-accent: #eab308; --hx-callout-bg: #fefce8; }
+.hx-callout-red    { --hx-callout-accent: #ef4444; --hx-callout-bg: #fef2f2; }
+.hx-callout-purple { --hx-callout-accent: #a855f7; --hx-callout-bg: #faf5ff; }
+.hx-callout-cyan   { --hx-callout-accent: #06b6d4; --hx-callout-bg: #ecfeff; }
+.hx-callout-gray   { --hx-callout-accent: #6b7280; --hx-callout-bg: #f9fafb; }
+
+.dark .hx-callout,
+[data-theme="dark"] .hx-callout {
+  background: color-mix(in srgb, var(--hx-callout-accent) 15%, transparent);
+}
