@@ -5,6 +5,9 @@ LocalPublicado: Youtube
 tags:
   - Deus
   - Crônica
+  - Católico
+  - Freira
+  - PerseguiçãoCatólica
 draft: false
 ---
 Era fim de tarde quando o movimento começava a diminuir nas ruas de Jerusalém. O sol, já cansado, se inclinava lentamente sobre as pedras antigas, aquelas mesmas que carregam séculos de fé, conflitos e orações silenciosas. Entre turistas apressados e moradores habituados ao sagrado cotidiano, uma freira caminhava com passos tranquilos, como quem não disputa espaço com o mundo, mas apenas o atravessa. Seu hábito simples contrastava com o peso histórico do lugar. 
